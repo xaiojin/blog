@@ -1,0 +1,136 @@
+2020-02-27 17:14:53.810  INFO 9172 --- [restartedMain] com.blog.Blog66Application        : Starting Blog66Application on DESKTOP-8JEG1Q0 with PID 9172 (started by xiaojin in E:\网站项目\blog66)
+2020-02-27 17:14:53.814  INFO 9172 --- [restartedMain] com.blog.Blog66Application        : The following profiles are active: dev
+2020-02-27 17:14:53.871  INFO 9172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-27 17:14:53.871  INFO 9172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-27 17:14:54.845  INFO 9172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-27 17:14:54.852  INFO 9172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-27 17:14:54.853  INFO 9172 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 17:14:54.924  INFO 9172 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-27 17:14:54.924  INFO 9172 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1046 ms
+2020-02-27 17:14:55.091  INFO 9172 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:14:55.201  WARN 9172 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-02-27 17:14:55.303  INFO 9172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-27 17:14:55.364  INFO 9172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 17:14:55.367  INFO 9172 --- [restartedMain] com.blog.Blog66Application        : Started Blog66Application in 2.0 seconds (JVM running for 2.94)
+2020-02-27 17:15:05.039  INFO 9172 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1580576861; Idea-7f6ee9fe=5b4ed030-0e47-4725-b82d-721720bf40ff] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-02-27 17:15:05.047  INFO 9172 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 17:15:05.048  INFO 9172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-27 17:15:05.058  INFO 9172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-02-27 17:17:46.301  INFO 11036 --- [restartedMain] com.blog.Blog66Application        : Starting Blog66Application on DESKTOP-8JEG1Q0 with PID 11036 (started by xiaojin in E:\网站项目\blog66)
+2020-02-27 17:17:46.304  INFO 11036 --- [restartedMain] com.blog.Blog66Application        : The following profiles are active: dev
+2020-02-27 17:17:46.346  INFO 11036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-27 17:17:46.347  INFO 11036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-27 17:17:47.443  INFO 11036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-27 17:17:47.452  INFO 11036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-27 17:17:47.452  INFO 11036 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 17:17:47.523  INFO 11036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-27 17:17:47.523  INFO 11036 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1176 ms
+2020-02-27 17:17:47.798  INFO 11036 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 17:17:47.959  INFO 11036 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-27 17:17:48.232  INFO 11036 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-27 17:17:48.267  INFO 11036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 17:17:48.270  INFO 11036 --- [restartedMain] com.blog.Blog66Application        : Started Blog66Application in 2.503 seconds (JVM running for 3.507)
+2020-02-27 17:17:52.828  INFO 11036 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1580576861; Idea-7f6ee9fe=5b4ed030-0e47-4725-b82d-721720bf40ff] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-02-27 17:17:52.833  INFO 11036 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 17:17:52.833  INFO 11036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-27 17:17:52.844  INFO 11036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-02-27 18:18:58.876  INFO 5224 --- [restartedMain] com.blog.Blog66Application               : Starting Blog66Application on DESKTOP-8JEG1Q0 with PID 5224 (started by xiaojin in E:\网站项目\blog66)
+2020-02-27 18:18:58.879  INFO 5224 --- [restartedMain] com.blog.Blog66Application               : The following profiles are active: dev
+2020-02-27 18:18:59.002  INFO 5224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-27 18:18:59.002  INFO 5224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-27 18:19:00.395  INFO 5224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-27 18:19:00.402  INFO 5224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-27 18:19:00.403  INFO 5224 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 18:19:00.476  INFO 5224 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-27 18:19:00.477  INFO 5224 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1475 ms
+2020-02-27 18:19:00.776  INFO 5224 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 18:19:00.926  INFO 5224 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-27 18:19:01.194  INFO 5224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-27 18:19:01.228  INFO 5224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 18:19:01.231  INFO 5224 --- [restartedMain] com.blog.Blog66Application               : Started Blog66Application in 2.916 seconds (JVM running for 3.854)
+2020-02-27 18:19:05.935  INFO 5224 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1580576861; Idea-7f6ee9fe=5b4ed030-0e47-4725-b82d-721720bf40ff] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-02-27 18:19:05.942  INFO 5224 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 18:19:05.942  INFO 5224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-27 18:19:05.952  INFO 5224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-02-27 18:21:39.497  INFO 3740 --- [restartedMain] com.blog.Blog66Application               : Starting Blog66Application on DESKTOP-8JEG1Q0 with PID 3740 (started by xiaojin in E:\网站项目\blog)
+2020-02-27 18:21:39.503  INFO 3740 --- [restartedMain] com.blog.Blog66Application               : The following profiles are active: dev
+2020-02-27 18:21:39.634  INFO 3740 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-27 18:21:39.635  INFO 3740 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-27 18:21:40.718  INFO 3740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-27 18:21:40.727  INFO 3740 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-27 18:21:40.727  INFO 3740 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 18:21:40.794  INFO 3740 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-27 18:21:40.795  INFO 3740 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1160 ms
+2020-02-27 18:21:41.067  INFO 3740 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 18:21:41.142  INFO 3740 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-27 18:21:41.477  INFO 3740 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-27 18:21:41.511  INFO 3740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 18:21:41.514  INFO 3740 --- [restartedMain] com.blog.Blog66Application               : Started Blog66Application in 2.527 seconds (JVM running for 3.447)
+2020-02-27 18:21:44.203  INFO 3740 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1580576861; Idea-7f6ee9fe=5b4ed030-0e47-4725-b82d-721720bf40ff] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-02-27 18:21:44.210  INFO 3740 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 18:21:44.210  INFO 3740 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-27 18:21:44.220  INFO 3740 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-02-27 18:52:05.230  INFO 8340 --- [restartedMain] com.blog.Blog66Application               : Starting Blog66Application on DESKTOP-8JEG1Q0 with PID 8340 (started by xiaojin in E:\网站项目\blog)
+2020-02-27 18:52:05.233  INFO 8340 --- [restartedMain] com.blog.Blog66Application               : The following profiles are active: dev
+2020-02-27 18:52:05.283  INFO 8340 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-27 18:52:05.283  INFO 8340 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-27 18:52:06.372  INFO 8340 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-27 18:52:06.380  INFO 8340 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-27 18:52:06.381  INFO 8340 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 18:52:06.447  INFO 8340 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-27 18:52:06.447  INFO 8340 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1163 ms
+2020-02-27 18:52:06.711  INFO 8340 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 18:52:06.802  INFO 8340 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-27 18:52:07.142  INFO 8340 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-27 18:52:07.178  INFO 8340 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 18:52:07.182  INFO 8340 --- [restartedMain] com.blog.Blog66Application               : Started Blog66Application in 2.573 seconds (JVM running for 3.635)
+2020-02-27 18:55:09.960  INFO 15216 --- [restartedMain] com.blog.Blog66Application               : Starting Blog66Application on DESKTOP-8JEG1Q0 with PID 15216 (started by xiaojin in E:\网站项目\blog)
+2020-02-27 18:55:09.963  INFO 15216 --- [restartedMain] com.blog.Blog66Application               : The following profiles are active: dev
+2020-02-27 18:55:10.084  INFO 15216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-27 18:55:10.085  INFO 15216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-27 18:55:11.498  INFO 15216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-27 18:55:11.509  INFO 15216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-27 18:55:11.510  INFO 15216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 18:55:11.586  INFO 15216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-27 18:55:11.587  INFO 15216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1502 ms
+2020-02-27 18:55:11.837  INFO 15216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 18:55:11.924  INFO 15216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-27 18:55:12.272  INFO 15216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-27 18:55:12.308  INFO 15216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 18:55:12.310  INFO 15216 --- [restartedMain] com.blog.Blog66Application               : Started Blog66Application in 2.888 seconds (JVM running for 3.991)
+2020-02-27 18:55:17.953  INFO 15216 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1580576861; Idea-7f6ee9fe=5b4ed030-0e47-4725-b82d-721720bf40ff] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-02-27 18:55:17.958  INFO 15216 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 18:55:17.959  INFO 15216 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-27 18:55:17.968  INFO 15216 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-02-27 18:58:08.552  INFO 7932 --- [restartedMain] com.blog.Blog66Application               : Starting Blog66Application on DESKTOP-8JEG1Q0 with PID 7932 (started by xiaojin in E:\网站项目\blog)
+2020-02-27 18:58:08.556  INFO 7932 --- [restartedMain] com.blog.Blog66Application               : The following profiles are active: dev
+2020-02-27 18:58:08.643  INFO 7932 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in E:\ideaconfig\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/ideaconfig/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/ideaconfig/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/ideaconfig/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/ideaconfig/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/ideaconfig/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/ideaconfig/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-02-27 18:58:08.643  INFO 7932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-27 18:58:08.644  INFO 7932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-27 18:58:09.372  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-27 18:58:09.413  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 JPA repository interfaces.
+2020-02-27 18:58:09.665  INFO 7932 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-27 18:58:10.058  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-27 18:58:10.067  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-27 18:58:10.067  INFO 7932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 18:58:10.167  INFO 7932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-27 18:58:10.167  INFO 7932 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1523 ms
+2020-02-27 18:58:10.433  INFO 7932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-27 18:58:10.483  INFO 7932 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-27 18:58:10.806  INFO 7932 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-27 18:58:10.908  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-27 18:58:11.159  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-27 18:58:11.180  INFO 7932 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-02-27 18:58:13.509  INFO 7932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-27 18:58:13.518  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-27 18:58:13.566  INFO 7932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-27 18:58:13.641  WARN 7932 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-27 18:58:13.845  INFO 7932 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 18:58:13.919  INFO 7932 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-27 18:58:14.190  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 18:58:14.193  INFO 7932 --- [restartedMain] com.blog.Blog66Application               : Started Blog66Application in 6.149 seconds (JVM running for 7.119)

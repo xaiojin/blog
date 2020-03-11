@@ -1,8 +1,10 @@
 package com.blog.service;
 
+import com.blog.NotFoundException;
 import com.blog.dao.UserRepository;
 import com.blog.po.User;
 import com.blog.utils.MD5Utils;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -27,4 +29,6 @@ public class UserServiceImpl implements UserService {
     public User getUserByName(String name) {
         return userRepository.findByUsername(name);
     }
+
+
 }

@@ -4,6 +4,7 @@ import com.blog.NotFoundException;
 import com.blog.dao.BlogRepository;
 import com.blog.po.Blog;
 import com.blog.po.Type;
+import com.blog.po.User;
 import com.blog.utils.MarkdownUtils;
 import com.blog.utils.MyBeanUtils;
 import com.blog.vo.BlogQuery;
@@ -17,6 +18,7 @@ import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
 import javax.persistence.criteria.*;
+import javax.servlet.http.HttpSession;
 import javax.transaction.Transactional;
 import java.util.*;
 
@@ -52,14 +54,47 @@ public class BlogServiceImpl implements BlogService {
         return blogRepository.findAll(new Specification<Blog>() {
             @Override
             public Predicate toPredicate(Root<Blog> root, CriteriaQuery<?> cq, CriteriaBuilder cb) {
+
                 List<Predicate> predicates = new ArrayList<>();
+                predicates.add(cb.equal(root.<User>get("user").get("id"),blog.getUserId())) ;
                 if (!"".equals(blog.getTitle())&&blog.getTitle()!=null){
+                    predicates.add(cb.equal(root.<User>get("user").get("id"),blog.getUserId())) ;
                     predicates.add(cb.like(root.<String>get("title"),"%"+blog.getTitle()+"%"));
                 }
                 if (blog.getTypeId()!=null){
+                    predicates.add(cb.equal(root.<User>get("user").get("id"),blog.getUserId())) ;
+
                     predicates.add(cb.equal(root.<Type>get("type").get("id"),blog.getTypeId()));
                 }
                 if (blog.isRecommend()){
+                    predicates.add(cb.equal(root.<User>get("user").get("id"),blog.getUserId())) ;
+
+                    predicates.add(cb.equal(root.<Boolean>get("recommend"),blog.isRecommend()));
+                }
+                cq.where(predicates.toArray(new Predicate[predicates.size()]));
+                return null;
+            }
+        },pageable);
+    }
+
+    @Override
+    public Page<Blog> listBlogByTypes(Pageable pageable, BlogQuery blog) {
+        return blogRepository.findAll(new Specification<Blog>() {
+            @Override
+            public Predicate toPredicate(Root<Blog> root, CriteriaQuery<?> cq, CriteriaBuilder cb) {
+
+                List<Predicate> predicates = new ArrayList<>();
+
+                if (!"".equals(blog.getTitle())&&blog.getTitle()!=null){
+
+                    predicates.add(cb.like(root.<String>get("title"),"%"+blog.getTitle()+"%"));
+                }
+                if (blog.getTypeId()!=null){
+
+                    predicates.add(cb.equal(root.<Type>get("type").get("id"),blog.getTypeId()));
+                }
+                if (blog.isRecommend()){
+
                     predicates.add(cb.equal(root.<Boolean>get("recommend"),blog.isRecommend()));
                 }
                 cq.where(predicates.toArray(new Predicate[predicates.size()]));
@@ -149,6 +184,17 @@ public class BlogServiceImpl implements BlogService {
             public Predicate toPredicate(Root<Blog> root, CriteriaQuery<?> cq, CriteriaBuilder cb) {
                 Join join = root.join("tags");
                 return cb.equal(join.get("id"),tagId);
+            }
+        },pageable);
+    }
+
+    @Override
+    public Page<Blog> listBlogByTypes(Long typesId, Pageable pageable) {
+        return blogRepository.findAll(new Specification<Blog>() {
+            @Override
+            public Predicate toPredicate(Root<Blog> root, CriteriaQuery<?> cq, CriteriaBuilder cb) {
+                Join join = root.join("types");
+                return cb.equal(join.get("id"),typesId);
             }
         },pageable);
     }

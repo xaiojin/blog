@@ -1,7 +1,9 @@
 body{
 	background: url("../images/bg.png") !important;
 }
-
+.m-padded{
+    padding: 1em !important;
+}
 
 .m-padded-mini{
 	padding: 0.2em !important;

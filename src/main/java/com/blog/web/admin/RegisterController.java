@@ -42,4 +42,6 @@ public class RegisterController {
         userService.addUser(user);
         return "redirect:/admin";
     }
+
+
 }

@@ -1,5 +1,6 @@
 package com.blog.web;
 
+import com.blog.po.User;
 import com.blog.service.BlogService;
 import com.blog.service.TagService;
 import com.blog.service.TypeService;
@@ -14,6 +15,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
+import javax.servlet.http.HttpSession;
 
 /**
  *
@@ -32,7 +35,9 @@ public class IndexController {
 
     @GetMapping("/")
     public String index(@PageableDefault(size = 6,sort = {"updateTime"},direction = Sort.Direction.DESC)
-                                    Pageable pageable, Model model){
+                                    Pageable pageable, Model model, HttpSession session){
+        User user = (User) session.getAttribute("user");
+        model.addAttribute("user",user);
         model.addAttribute("page",blogService.listBlog(pageable));
         model.addAttribute("types",typeService.listTypeTop(6));
         model.addAttribute("tags",tagService.listTagTop(10));
@@ -41,8 +46,9 @@ public class IndexController {
     }
 
     @GetMapping("/blog")
-    public String blog(){
-
+    public String blog(Model model, HttpSession session){
+        User user = (User) session.getAttribute("user");
+        model.addAttribute("user",user);
         return "blog";
     }
 

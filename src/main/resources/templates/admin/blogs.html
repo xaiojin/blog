@@ -51,7 +51,8 @@
     <div  class="m-container-small m-padded-tb-big animated fadeIn">
         <div class="ui container">
             <div  class="ui secondary segment form">
-                <input type="hidden" name="page" >
+                <input type="hidden" name="page">
+                <input type="hidden" name="userId" th:value="${user.id}">
                 <div class="inline fields">
                     <div class="field">
                         <input type="text" name="title" placeholder="标题">
@@ -217,12 +218,14 @@
         $("[name='page']").val(0);
         loaddata();
     });
+    loaddata();
     function loaddata() {
         $("#table-container").load(/*[[@{/admin/blogs/search}]]*/"/admin/blogs/search",{
             title : $("[name='title']").val(),
             typeId : $("[name='typeId']").val(),
             recommend : $("[name='recommend']").prop('checked'),
-            page : $("[name='page']").val()
+            page : $("[name='page']").val(),
+            userId :$("[name='userId']").val()
         });
     }
 </script>

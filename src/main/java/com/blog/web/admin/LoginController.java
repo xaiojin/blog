@@ -49,7 +49,12 @@ public class LoginController {
     public String logout(HttpSession session){
         session.removeAttribute("user");
         return "redirect:/admin";
+    }
 
+    @GetMapping("/qianlogout")
+    public String qianlogout(HttpSession session){
+        session.removeAttribute("user");
+        return "redirect:/";
     }
 
 }

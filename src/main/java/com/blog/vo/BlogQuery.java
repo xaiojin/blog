@@ -5,7 +5,7 @@ public class BlogQuery {
     private String title;
     private Long typeId;
     private boolean recommend;
-
+    private Long userId;
     public BlogQuery() {
     }
 
@@ -31,5 +31,13 @@ public class BlogQuery {
 
     public void setRecommend(boolean recommend) {
         this.recommend = recommend;
+    }
+
+    public Long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
     }
 }

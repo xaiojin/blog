@@ -1,6 +1,7 @@
 package com.blog.web;
 
 import com.blog.po.Type;
+import com.blog.po.User;
 import com.blog.service.BlogService;
 import com.blog.service.TypeService;
 
@@ -35,10 +36,13 @@ public class TypeShowController {
         if (id == -1) {
            id = types.get(0).getId();
         }
+
         BlogQuery blogQuery = new BlogQuery();
         blogQuery.setTypeId(id);
+
         model.addAttribute("types", types);
-        model.addAttribute("page", blogService.listBlog(pageable, blogQuery));
+        model.addAttribute("page", blogService.listBlogByTypes(pageable,blogQuery));
+
         model.addAttribute("activeTypeId", id);
         return "types";
     }

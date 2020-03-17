@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8089
   tomcat:
     max-swallow-size: 10MB
 # ucloud 配置
@@ -16,8 +16,10 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/blog?useUnicode=true&charaterEncoding=utf-8&serverTimezone=UTC
+#    url: jdbc:mysql://14.18.80.95:3306/blog?useUnicode=true&charaterEncoding=utf-8&serverTimezone=UTC
     username: root
     password: root
+
   jpa:
     hibernate:
       ddl-auto: update

@@ -1,5 +1,6 @@
 package com.blog.web;
 
+import com.blog.po.Blog;
 import com.blog.po.Comment;
 import com.blog.po.User;
 import com.blog.service.BlogService;
@@ -37,9 +38,13 @@ public class CommentController {
     @PostMapping("/comments")
     public String post(Comment comment, HttpSession session) {
         Long blogId = comment.getBlog().getId();
+
+        Blog blog = blogService.getBlog(blogId);
+        Long userId = blog.getUser().getId();
+
         comment.setBlog(blogService.getBlog(blogId));
         User user = (User) session.getAttribute("user");
-        if (user != null) {
+        if (user != null && user.getId().equals(userId)) {
             comment.setAvatar(user.getAvatar());
             comment.setAdminComment(true);
         } else {
